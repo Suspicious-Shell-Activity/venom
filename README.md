@@ -1,16 +1,16 @@
-[![Version](https://img.shields.io/badge/VENOM-1.0.14-brightgreen.svg?maxAge=259200)]()
+[![Version](https://img.shields.io/badge/VENOM-1.0.15-brightgreen.svg?maxAge=259200)]()
 [![Stage](https://img.shields.io/badge/Release-Stable-brightgreen.svg)]()
 [![Build](https://img.shields.io/badge/Supported_OS-Linux-orange.svg)]()
 [![AUR](https://img.shields.io/aur/license/yaourt.svg)]()
 
-## VENOM 1.0.14 - metasploit Shellcode generator/compiller
-    Version release : v1.0.14
+## VENOM 1.0.15 - metasploit Shellcode generator/compiller
+    Version release : v1.0.15
     Author : pedro ubuntu  [ r00t-3xp10it ]
     Codename: Pandora's box (pithos)
     Distros Supported : Linux Ubuntu, Kali, Mint, Parrot OS
-    Suspicious-Shell-Activity (SSA) RedTeam develop @2017
+    Suspicious-Shell-Activity (SSA) RedTeam develop @2018
 
-![venom shellcode v1.0.13](http://i.cubeupload.com/bYQJc8.png)
+![venom shellcode v1.0.15](http://i.cubeupload.com/bYQJc8.png)
 
 
 ## LEGAL DISCLAMER
@@ -47,7 +47,7 @@
 
     "Apache2 (malicious url) will copy all files needed to your webroot"
 
-![venom shellcode v1.0.13](http://i.cubeupload.com/nvmSq3.png)
+![venom shellcode v1.0.15](http://i.cubeupload.com/nvmSq3.png)
 
 
 ## DEPENDENCIES
@@ -64,39 +64,34 @@
 
 ## DOWNLOAD/INSTALL
     1º - Download framework from github
-         git clone https://github.com/r00t-3xp10it/venom.git
+         `git clone https://github.com/r00t-3xp10it/venom.git`
 
     2º - Set files execution permitions
-         cd venom-main
-         sudo chmod -R +x *.sh
-         sudo chmod -R +x *.py
+         `cd venom`
+         `sudo chmod -R +x *.sh`
+         `sudo chmod -R +x *.py`
 
     3º - Install dependencies
-         cd aux
-         sudo ./setup.sh
+         `cd aux`
+         `sudo ./setup.sh`
 
     4º - Run main tool
-         sudo ./venom.sh
+         `sudo ./venom.sh`
 
 
 ## Framework Main Menu
-![venom shellcode v1.0.13](http://i.cubeupload.com/6yNJGG.png)
-## [ build 4 ] python/pyinstaller - osiris.exe
-    Build 4 Work floow: Build shellcode in C language, embebbed into
-    one python template and compiled to exe by pyinstaller = osiris.exe
-![venom shellcode v1.0.13-Beta](http://i.cubeupload.com/n7Nxee.png)
-![venom shellcode v1.0.13-Beta](http://i.cubeupload.com/jWpjf3.png)
+![venom shellcode v1.0.15](http://i.cubeupload.com/YzUcgT.png)
+![venom shellcode v1.0.15](http://i.cubeupload.com/cVldOV.png)
+![venom shellcode v1.0.15](http://i.cubeupload.com/lluvPu.png)
 
 
-## video tutorial [build 23 - Invoke-Phant0m]
-![venom shellcode v1.0.13](http://i.cubeupload.com/oBrL13.gif)
 
 <br />
 
-
-Suspicious-Shell-Activity© (SSA) RedTeam develop @2017
-
+Detailed info about release 1.0.15: https://github.com/r00t-3xp10it/venom/releases<br />
+Suspicious-Shell-Activity© (SSA) RedTeam develop @2018
 
 _EOF
+
 
 
